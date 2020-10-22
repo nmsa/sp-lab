@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build --tag nunoantunes/sp-lab:fhe-c .
+docker build --tag sp-demo-voter .

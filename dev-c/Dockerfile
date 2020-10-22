@@ -1,8 +1,14 @@
-FROM docker build --tag nunoantunes/sp-lab:fhe-c .
+FROM nunoantunes/sp-lab:fhe-c
 
-COPY    "/app/*"   "/app"
 
-WORKDIR "/app"
+
+
+COPY    "/app/*.h"       "/app/"
+COPY    "/app/*.cpp"     "/app/"
+COPY    "/app/makefile"  "/app/"
+
+
+WORKDIR  "/app"
 
 
 ENTRYPOINT [ "bash", "-c" ]
