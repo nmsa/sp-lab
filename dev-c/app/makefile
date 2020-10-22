@@ -23,9 +23,8 @@ $(TEST_EXECUTABLE) : test_suite.o fully_homomorphic.o utilities.o circuit.o secu
 $(DEMO_EXECUTABLE) : demo_vote_counter.o fully_homomorphic.o utilities.o circuit.o security_settings.o
 	$(CC) -o $@ demo_vote_counter.o fully_homomorphic.o utilities.o circuit.o security_settings.o $(LDFLAGS)
 
-$(DEMO_EXECUTABLE) : exercise_average.o fully_homomorphic.o utilities.o circuit.o security_settings.o
+$(AVG_EXECUTABLE) : exercise_average.o fully_homomorphic.o utilities.o circuit.o security_settings.o
 	$(CC) -o $@ exercise_average.o fully_homomorphic.o utilities.o circuit.o security_settings.o $(LDFLAGS)
-
 
 
 $(EXECUTABLE) : main.o fully_homomorphic.o utilities.o circuit.o security_settings.o
