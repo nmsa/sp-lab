@@ -1,5 +1,4 @@
-FROM jupyter/minimal-notebook
+FROM nunoantunes/sp-lab:crypto-jupypter
 
 ADD ./notebooks /home/jovyan/work
 
-RUN pip install -r /home/jovyan/work/requirements.txt  
