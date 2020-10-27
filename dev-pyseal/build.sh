@@ -1,8 +1,10 @@
 #!/bin/bash
 # 
+# from: https://github.com/Lab41/PySEAL/
+# 
+#
+# image to make life easier for students
 # MECD Security and Privacy
-# CSW 2020
-# Authors: Nuno Antunes <nmsa@dei.uc.pt>, Nuno Cardoso <nunolc@dei.uc.pt>
 #
 
 image="pyseal-jupyter"

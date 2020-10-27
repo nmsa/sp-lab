@@ -1,4 +1,11 @@
 #!/bin/bash
+# 
+# from: https://github.com/Lab41/PySEAL/
+# 
+#
+# image to make life easier for students
+
+
 
 port=12345
 
